@@ -88,6 +88,7 @@ function newgame(){
         no_of_attempts = 0;
         guesses = [];
         prevguess.innerHTML = '';
+        remguesses.innerHTML = `${10 - no_of_attempts}`;
         resultparas.removeChild(p);
         playGame = false;
     })
